@@ -8,10 +8,17 @@ OneMon 用于 Windows 11 和 Apple Silicon Mac 共用显示器：快捷键切换
 
 在 [最新版本](https://github.com/venico/OneMon-Updates/releases/latest) 选择：
 
-- Windows：OneMon-Windows-x64.zip
-- M 系列 Mac：OneMon-macOS-arm64.zip
+- Windows：OneMon-Windows-v版本号-x64.zip
+- M 系列 Mac：OneMon-macOS-v版本号-arm64.zip
 
 更新前从托盘或菜单栏退出旧版，完整解压后替换应用，再打开。两端界面均显示版本号及对端版本；确认两端为同一新版。
+
+## 0.4.7
+
+- Windows 接收文件改存软件目录内的 Received 文件夹，修复资源管理器或微信粘贴时报“找不到项目”的问题；请将软件放到可写目录。
+- Received 在自动更新时保留，不包含在源码或安装包中。
+- DP 值和配对密钥旁使用清晰的圆形问号，点击显示对应说明。
+- 安装包文件名带版本号。0.4.6 的无版本文件名附件仅用于兼容旧更新器；后续使用带版本号的文件。
 
 ## 0.4.5
 
